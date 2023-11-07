@@ -1,0 +1,10 @@
+reStart course notes
+
+Integration - means one of 3 things.
+1) configure application layer network/Configure application layer gateway
+2) Messaging - dealing with different types of messages differently. Message queues/bursts
+3) dealing with file transfer
+
+
+
+
