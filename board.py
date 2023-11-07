@@ -21,7 +21,7 @@ def printBoard(size):
         printHyphens(size)
     printPipes(size)
 
-n = input("How large do you want your tic-tac-toe board to be?")
+n = input("How large do you want your tic-tac-toe board to be? ")
 f = open("output.txt", 'w')
 sys.stdout = f
 printBoard(n)
