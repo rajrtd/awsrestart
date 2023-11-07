@@ -1,3 +1,4 @@
+import sys
 
 def printHyphens(input):
     for hyphenSpacing in range(3):
@@ -21,4 +22,7 @@ def printBoard(size):
     printPipes(size)
 
 n = input("How large do you want your tic-tac-toe board to be?")
+f = open("output.txt", 'w')
+sys.stdout = f
 printBoard(n)
+f.close()
