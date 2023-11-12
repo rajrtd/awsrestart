@@ -1,16 +1,16 @@
 # AWS reStart Homework
 ### Tic-Tac-Toe Board
-[Week 2 - Homework 2 (Jupyter Notebook)](https://github.com/rajrtd/awsrestart/tree/master/homework/week2/homework_1.ipynb)
+[Week 2 - Homework 1 (Jupyter Notebook)](https://github.com/rajrtd/awsrestart/tree/master/homework/week2/homework_1.ipynb)
 
-[Week Homework 2 (Python File)](https://github.com/rajrtd/awsrestart/tree/master/homework/week2/board.py)
+[Week 2 - Homework 1 (Python File)](https://github.com/rajrtd/awsrestart/tree/master/homework/week2/board.py)
 
-[Week 2 - Homework 2 (Output of Python File)](https://github.com/rajrtd/awsrestart/tree/master/homework/week2/output.txt)
+[Week 2 - Homework 1 (Output of Python File)](https://github.com/rajrtd/awsrestart/tree/master/homework/week2/output.txt)
 ### Caesar Script
-[Week 2 - Homework 3](
+[Week 2 - Homework 2](
     https://github.com/rajrtd/awsrestart/tree/master/homework/week2/homework_2.ipynb
 )
 
-[Week 2 - Homework 3 Attempt 2](
+[Week 2 - Homework 2 Attempt 2](
     https://github.com/rajrtd/awsrestart/tree/master/homework/week2/homework_2_attempt_2.ipynb
 )
 
