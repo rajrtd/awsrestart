@@ -5,7 +5,7 @@ from classes import BookStore
 def main():
     # author, book item, bookstore
 
-    author1 = Author(name = "Raj Rathod", author_id = "ABCDE-FGHI")
+    author1 = Author(name = "rajrathod", author_id = "ABCDE-FGHI")
     author2 = Author(name = "James Bond", author_id = "JKLM-NOPQ")
     author3 = Author(name = "Tony Stark", author_id = "RSTU-VWXY")
 
