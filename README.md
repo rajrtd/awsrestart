@@ -26,4 +26,6 @@
     https://github.com/rajrtd/awsrestart/tree/master/homework/week2/homework_5_6.ipynb
 )
 
+### Library with data classes
 
+[Week 2 - Homework 7](https://github.com/rajrtd/awsrestart/blob/master/homework7/main.py)
