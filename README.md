@@ -28,4 +28,5 @@
 
 ### Library with data classes
 
-[Week 2 - Homework 7](https://github.com/rajrtd/awsrestart/blob/master/homework7/main.py)
+[Week 3 - Homework 7](https://github.com/rajrtd/awsrestart/blob/master/homework7/main.py)
+
