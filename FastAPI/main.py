@@ -17,7 +17,6 @@ async def root(): # returns the root folder
 def read_item(item_id: int, q: Union[str, None] = None): #union[str, none] means the type can be str or none, but the = none means default value is none, so you don't have to specify it
     return {"item_id": item_id, "q": q}
 
-
 # def match_regex() -> bool, the -> bool part says it's returning a boolean value
 # python -m uvicorn main:app --reload potentially this will work in git bash if the normal uvicorn command doesn't work
 
