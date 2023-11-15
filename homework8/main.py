@@ -1,27 +1,17 @@
+from dto import InventoryItem, ItemOrigin
 from fastapi import FastAPI
-from typing import*
-from pydantic import BaseModel
+from typing import Dict
 
-class ItemOrigin(BaseModel):
-    country:str
-    production_date:str
-    
-class InventoryItem(BaseModel):
-    name:str
-    quantity: int
-    serial_num:str
-    origin:ItemOrigin
+app = FastAPI() # when calling FastAPI what is it doing
 
-app = FastAPI()
-@app.get("/")
-async def root():
-    pass
+my_inventory_item_dict:Dict[str, InventoryItem] = {} # currently empty dict, used to serve as a working memory
+# used to look up inventory item using the serial number
 
-@app.get("/items/{serial_num}")
-def read_item(my_inventory_items_dict: Dict[str, InventoryItem]):
-    return {"my_inventory_items_dict": my_inventory_items_dict}
+@app.put("/items/{serial_num}") #naming convention inside curly braces needs to be the same as everything else in parameters for the function, the original class creation and the path
+def create_item(item:InventoryItem, serial_num:str):
+    my_inventory_item_dict[serial_num] = item
+    print(my_inventory_item_dict)
 
-@app.put("/items/{serial_num}")
-def update_item(item_origin:ItemOrigin, my_inventory_items_dict: Dict[str, InventoryItem]):
-    return {"item_origin": item_origin, "my_inventory_items_dict": my_inventory_items_dict}
-
+@app.get("/items/{serial_num}") #naming convention inside curly braces needs to be the same as everything else in parameters for the function, the original class creation and the path
+def read_item(serial_num: str): #union[str, none] means the type can be str or none, but the = none means default value is none, so you don't have to specify it
+    return {"item":my_inventory_item_dict[serial_num]}
