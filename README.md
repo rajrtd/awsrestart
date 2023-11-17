@@ -37,8 +37,8 @@
 [Week 3 - Homework 8](https://github.com/rajrtd/awsrestart/tree/master/homework8_library)
 
 ### Testing Inventory Items API
-[Week 3 - Homework 9]()
+[Week 3 - Homework 9](https://github.com/rajrtd/awsrestart/tree/master/homework8_Inventory_Items)
+![Alt text](image-1.png)
 
 ### Testing Library API
 [Week 3 - Homework 9]()
-![Tests](image.png)

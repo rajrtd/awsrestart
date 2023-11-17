@@ -44,14 +44,14 @@ def test_get_api():
     response = client.get("/items/test/")
     assert response.status_code == 200 and response.json() == myDict
 
-# def test_get_all_api(): 
-#     response = client.get("/items/")
-#     assert response.status_code == 200
+def test_get_all_api(): 
+    response = client.get("/items/")
+    assert response.status_code == 200
 
-# def test_delete_api():
-#     response = client.delete("items/test/")
-#     assert response.status_code == 200
+def test_delete_api():
+    response = client.delete("items/test/")
+    assert response.status_code == 200
 
-# def test_confirm_delete_api():
-#     response = client.get("/items/test/")
-#     assert response.status_code == 404
+def test_confirm_delete_api():
+    response = client.get("/items/test/")
+    assert response.status_code == 404
