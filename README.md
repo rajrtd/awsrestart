@@ -38,6 +38,7 @@
 
 ### Testing Inventory Items API
 [Week 3 - Homework 9](https://github.com/rajrtd/awsrestart/tree/master/homework8_Inventory_Items)
+</br>
 ![Alt text](image-1.png)
 
 ### Testing Library API
