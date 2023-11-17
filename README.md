@@ -30,3 +30,14 @@
 
 [Week 3 - Homework 7](https://github.com/rajrtd/awsrestart/blob/master/homework7/main.py)
 
+### Inventory Items
+[Week 3 - Homework 8](https://github.com/rajrtd/awsrestart/tree/master/homework8_Inventory_Items)
+
+### Library
+[Week 3 - Homework 8](https://github.com/rajrtd/awsrestart/tree/master/homework8_library)
+
+### Testing Inventory Items
+[Week 3 - Homework 9]()
+
+### Testing Library
+[Week 3 - Homework 9]()
