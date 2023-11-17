@@ -36,8 +36,9 @@
 ### Library
 [Week 3 - Homework 8](https://github.com/rajrtd/awsrestart/tree/master/homework8_library)
 
-### Testing Inventory Items
+### Testing Inventory Items API
 [Week 3 - Homework 9]()
 
-### Testing Library
+### Testing Library API
 [Week 3 - Homework 9]()
+![Tests](image.png)

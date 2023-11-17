@@ -30,3 +30,4 @@ def delete_item(serial_num:str) -> Dict:
 @app.get("/items/") 
 def get_item() -> List[InventoryItem]: # -> List[InventoryItem] I've specified what this function is returning
     return my_inventory_item_dict.values() # getting a list of values
+
