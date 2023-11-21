@@ -43,3 +43,11 @@
 
 ### Testing Library API
 [Week 3 - Homework 9]()
+
+### SQL Commands
+![Alt text](image-2.png)
+<br>
+![Alt text](image-3.png)
+<br>
+![Alt text](image-5.png)
+<br>
