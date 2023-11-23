@@ -41,14 +41,12 @@ def create_hero(hero: Hero):
 def get_hero(name: str):
     with Session(engine) as session:    
         statement = select(Hero).where(Hero.name == name)
-        retrieved_hero = session.exec(statement).all()    
-        return retrieved_hero
+        retrieved_hero = session.exec(statement).all()        
+    return retrieved_hero
 
-@app.get("/heroes/")
+@app.get("/heroes/") # response=List[Hero]
 def get_heroes():
-    pass
-
-# @app.get("/heroes/", response=List[Hero])
-# def get_heroes():
-#     # implement part 3 here
-#     pass
+    with Session(engine) as session:  
+        statement = select(Hero).where()
+        all_heroes = session.exec(statement).all()
+    return all_heroes
