@@ -31,21 +31,21 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 @app.post("/heroes/")
-def create_hero(hero: Hero):
+def create_hero(hero: Hero) -> None:
     with Session(engine) as session:
         session.add(hero)
         session.commit()
 
 
 @app.get("/heroes/{name}")
-def get_hero(name: str):
+def get_hero(name: str) -> Hero:
     with Session(engine) as session:    
         statement = select(Hero).where(Hero.name == name)
         retrieved_hero = session.exec(statement).all()        
     return retrieved_hero
 
 @app.get("/heroes/") # response=List[Hero]
-def get_heroes():
+def get_heroes() -> List[Hero]:
     with Session(engine) as session:  
         statement = select(Hero).where()
         all_heroes = session.exec(statement).all()
