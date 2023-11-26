@@ -22,7 +22,6 @@ engine = create_engine(sqlite_url, echo=True, connect_args=connect_args)
 def create_db_and_tables():
     SQLModel.metadata.create_all(engine)
 
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     create_db_and_tables()
