@@ -41,9 +41,6 @@
 </br>
 ![Alt text](image-1.png)
 
-### Testing Library API
-[Week 3 - Homework 9]()
-
 ### SQL Commands
 ## 1. ![Alt text](image-2.png)
 <br>
