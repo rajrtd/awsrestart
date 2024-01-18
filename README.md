@@ -30,19 +30,16 @@
 
 [Week 3 - Homework 7](https://github.com/rajrtd/awsrestart/blob/master/homework7/main.py)
 
-### Inventory Items
+### Inventory Items API
 [Week 3 - Homework 8](https://github.com/rajrtd/awsrestart/tree/master/homework8_Inventory_Items)
 
-### Library
+### Library API
 [Week 3 - Homework 8](https://github.com/rajrtd/awsrestart/tree/master/homework8_library)
 
 ### Testing Inventory Items API
 [Week 3 - Homework 9](https://github.com/rajrtd/awsrestart/tree/master/homework8_Inventory_Items)
 </br>
 ![Alt text](image-1.png)
-
-### Testing Library API
-[Week 3 - Homework 9]()
 
 ### SQL Commands
 ## 1. ![Alt text](image-2.png)
